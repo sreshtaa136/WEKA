@@ -1,4 +1,4 @@
-# P000177CSITCP-Weka-in-AWS-Cloud
+# Weka
 
 WEKA (Waikato Environment for Knowledge Analysis) is a free open-source software that was developed at the University of Waikato, New Zealand.
 The current user interface of WEKA doesn’t make it any easier for students to use it. It is a complex software which is not very user-friendly especially for students with no technical experience.
@@ -7,10 +7,10 @@ Except our version of WEKA is a website you can use on any browser.
 
 ### Our team
 * **Sai Sreshtaa Turaga** - Frontend and Backend Developer - sreshtaa.t@gmail.com
-* **Yitao Ma** - Backend Developer and Tester - ethanyitaoma2001@gmail.com
-* **Zhihong Deng** - Frontend and Backend Developer, Tester 
+* **Yitao Ma** - Backend Developer and Tester
+* **Zhihong Deng** - Backend Developer and Tester 
 * **Zehu Liu** - Backend Developer and Tester 
-* **Christoper Adrianus Sindarto** - Frontend and Backend Developer 
+* **Christoper Adrianus Sindarto** - Backend Developer 
 
 ### Instructions to run this application:
 1. Inside every microservice folder in the Backend folder (classifyMicroservice, clusterMicroservice, filterMicroservice, loadDataMicroservice),
