@@ -1,0 +1,100 @@
+/* STYLING FOR CONTACT-US PAGE */
+
+.contact input[type=submit] {
+    background-color: rgb(55, 41, 185);
+    color: white;
+    padding: 30px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #89a3e5;
+}
+
+.contact {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact .contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.contact .contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: #ffffff;
+}
+
+.contact form{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.contact .contact-right{
+    flex-basis: 40%;
+    padding: 30px;
+    background: #ffffff;
+    margin-left: 5em;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 3em;
+}
+
+.contact h1{
+    margin-bottom: 10px;
+}
+
+.contact .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact .input-group{
+    flex-basis: 45%;
+}
+
+.contact .container input[type=text] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.contact .container label{
+    margin-bottom: 6px;
+    display: block;
+}
+
+.contact textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact label{
+    margin-bottom: 6px;
+    display: block;
+}
+
+.contact .container input, textarea {
+    padding: 0.4em;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.contact .team p {
+    font-size: 18px;
+}

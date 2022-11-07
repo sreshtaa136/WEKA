@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="loadDataMicroservice" />
+        <module name="clusterMicroservice" />
+        <module name="filterMicroservice" />
+        <module name="classifyMicroservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="classifyMicroservice" target="16" />
+      <module name="clusterMicroservice" target="16" />
+      <module name="filterMicroservice" target="16" />
+      <module name="loadDataMicroservice" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="classifyMicroservice" options="-parameters" />
+      <module name="clusterMicroservice" options="-parameters" />
+      <module name="filterMicroservice" options="-parameters" />
+      <module name="loadDataMicroservice" options="-parameters" />
+    </option>
+  </component>
+</project>

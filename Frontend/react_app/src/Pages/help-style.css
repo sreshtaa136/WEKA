@@ -1,0 +1,33 @@
+
+.help .helpContent {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2.6em;
+    margin-bottom: 4em;
+}
+
+.help .line {
+    clear: both;
+    border-bottom: 2px solid #ddd;
+    margin: 0 0 15px;
+}
+
+.help .helpContent p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.help {
+    margin-bottom: 26em;
+}
+
+.help .content-three{
+    font-size: 1.1em;
+    text-align: left;
+    float: left;
+    width: 20%;
+    margin-left: 230px ;
+}
